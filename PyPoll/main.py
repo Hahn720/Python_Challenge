@@ -7,7 +7,6 @@ csv_path=os.path.join('election_data_2.csv')
 
 election=pd.read_csv(csv_path, encoding='utf-8')
 
-print(election.head())
 
 #Total number of votes
 total=election['Voter ID'].count()
